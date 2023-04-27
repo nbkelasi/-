@@ -6,7 +6,8 @@ import Register from "@/pages/Register";
 import Detail from "@/pages/Detail";
 import AddCartSuccess from "@/pages/AddCartSuccess";
 import ShopCart from "@/pages/ShopCart";
-import Trade from "@/pages/Trade"
+import Trade from "@/pages/Trade";
+import Pay from "@/pages/Pay";
 
 export default [
     {
@@ -70,5 +71,12 @@ export default [
         component:Trade,
         meta:{ isShow:true }
     },
+    // 支付页面
+    {
+        name:'pay',
+        path:'/pay',
+        component:Pay,
+        meta:{isShow:true}
+    }
     
 ]

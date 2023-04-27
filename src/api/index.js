@@ -52,3 +52,6 @@ export const reqAddressInfo = ()=>requests({url:'/user/userAddress/auth/findUser
 
 // 获取订单交易页信息
 export const reqOrderInfo = ()=>requests({url:'order/auth/trade',method:'get'})
+
+// 提交订单接口
+export const requSubmitOrder = (tradeNo,data)=>requests({url:`/order/auth/submitOrder?tradeNo=${tradeNo}`,data,method:'post'})

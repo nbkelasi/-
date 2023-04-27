@@ -85,7 +85,7 @@
       </div>
     </div>
     <div class="sub clearFix">
-      <router-link class="subBtn" to="/pay">提交订单</router-link>
+      <router-link class="subBtn" to="/pay" @click="this.$router.push('/pay')">提交订单</router-link>
     </div>
   </div>
 </template>
