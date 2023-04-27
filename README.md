@@ -19,6 +19,9 @@
 ## 安装和运行
 
 1. 克隆该项目到本地。
+    ```
+    git clone https://github.com/nbkelasi/vue2_project.git
+    ```
 2. 进入项目目录，并安装依赖：
 
     ```
